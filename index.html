@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Beranda - MegaTech Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff0080, #7928ca, #2afadf);
+            background-size: 600% 600%;
+            animation: rgbAnim 15s ease infinite;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        @keyframes rgbAnim {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 20px;
+            color: #ffffffcc;
+        }
+
+        .produk-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .produk {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #ffffff33;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+
+        .produk img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .produk h3 {
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+        .produk p {
+            font-size: 14px;
+            color: #e0e0e0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang di MegaTech Store</h1>
+    <h2>Produk Unggulan</h2>
+
+    <div class="produk-container">
+        <div class="produk">
+            <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/MTA-112511111/msi_msi_geforce_rtx_4090_gaming_x_trio_24g_vga_graphic_card_full01_jzxfvvi9.jpg" alt="VGA NVIDIA RTX 4090">
+            <h3>NVIDIA GeForce RTX 4090</h3>
+            <p>Performa terbaik untuk gaming 4K dan produktivitas berat.</p>
+        </div>
+        <div class="produk">
+            <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/10/19/d9d63908-0b00-483b-970c-7ddaeec82f56.jpg" alt="Intel Core i9-13900K">
+            <h3>Intel Core i9-13900K</h3>
+            <p>Prosesor tercepat untuk multitasking dan editing profesional.</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="beranda.html">Beranda</a> |
+        <a href="profil.html">Profil</a>
+    </nav>
+</body>
+</html>
